@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+.navbar{
+    position: fixed;
+    height: 80px;
+    justify-content: space-around;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color:rgb(51, 51, 51);
+   
+    
+}
+
+.first-navpart , .second-navpart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0 40px;
+
+}
+  .navbar a:hover {
+        color: aqua;
+        cursor:alias;
+        text-decoration: underline;
+}
+        
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./download.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ .hero h1{
+   width: max-content;
+   height: max-content;
+   background-color: rgba(115, 151, 165, 0.6);
+   color: white;
+   padding:30px;
+   font-size:55px ;
+   text-align: center;
+   margin-top:25px;
+   
+
+
+
+}
+#About{
+    height:300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top: 40px;
+    font-size: 30px;
+}
+#About p{
+    margin-top: 20px;
+}
+
+
+#Services{
+    height:max-content;
+    background-color: rgb(252, 213, 191);
+    text-align: center;
+}
+#Services h1{
+     font-size: 55px;
+     margin: 30px;
+     padding-top: 30px;
+}
+#Services .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+#Services .card{
+    padding: 15px;
+    margin:  20px 20px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+}
+
+h3{
+    font-size: 25px;
+}
+#Specialization{
+    text-align: center;
+    padding: 10px;
+}
+#Specialization h1{
+    padding: 20px;
+    font-size: 55px;
+}
+#Specialization .container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+#Specialization .card{
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 30px;
+     background-color: antiquewhite;
+     border-radius: 5px;
+     padding: 20px;
+     width: 300px;
+     justify-content: center;
+}
+#Teachers{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(252, 213, 191);
+}
+.pic{
+    width: 100px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+#Teachers h1{
+    padding: 20px;
+    font-size: 55px;
+}
+#Teachers .container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+#Teachers .container .card{
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+     background-color: white;
+     border-radius: 5px;
+     padding: 20px;
+     width: 300px;
+     justify-content: center;
+    
+
+}
+#Teachers .container .card h3{
+    padding-bottom: 20px;
+}
+#Plans{
+    text-align: center;
+    padding: 10px;
+  
+}
+#Plans .container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.picplan{
+    width: 180px;
+    padding: 15px;
+    margin: 10px;
+}
+#Plans .container .card{
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+     background-color:rgb(245,222, 179) ;
+     border-radius: 5px;
+     padding: 20px;
+     width: 300px;
+     justify-content: center;
+    
+}
+.pri{
+    width: 180px;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(253, 233, 140);
+    border: 1px solid rgb(255, 215, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.feature{
+    padding: 10px;
+    padding-right: 100px;
+
+}
+#Plans h1{
+    padding: 20px;
+    font-size: 55px;
+}
+input textarea{
+   width: 500px;
+   height: 100px;
+   padding: 20px;
+   border-radius: 10px;
+   margin: 15px;
+   outline: none;
+}
+button{
+    background-color: rgb(51, 51, 51);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    margin:50px;
+    margin-top: 20px;
+    height: max-content;
+    font-size: 20px;
+
+    
+}
+button:hover{
+    background-color:aqua;
+}
+#Contact{
+    width: 100%;
+    height: 90vh;
+    background-color:rgb(245,222, 179);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+
+}
+
+.leen{
+    width: 280px;
+    display: flex;
+    justify-content:flex-start;
+    text-align:left;
+    flex-direction: column;
+  
+ 
+
+}
+#Contact h1{
+    margin: 0 auto;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size:55px;
+}
+.con{
+    width: 48%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  
+
+}
+.con h1{
+    padding-bottom: 30px;
+}
+#Follow{
+    height:max-content;
+    background-color:rgb(51, 51, 51);
+}
+.leen1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 10px;
+    bottom: 0;
+    color: white;
+}
+li:hover{
+    color: aqua;
+    cursor:alias;
+}
+
+
+/*my own classas*/
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
